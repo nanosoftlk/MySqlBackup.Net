@@ -20,10 +20,12 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AssemblyName>MySqlBackup</AssemblyName>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+	<SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SmartCoopStrongNameKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.32" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
   </ItemGroup>
 
 </Project>
